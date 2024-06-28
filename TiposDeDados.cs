@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Course {
-    internal class Program {
+    internal class TiposDeDados {
         static void Main(string[] args) {
 
             // Declaração de uma variável booleana que pode ser verdadeira ou falsa
