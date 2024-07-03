@@ -24,7 +24,7 @@ namespace Course {
             
             // Exibindo mensagem no console usando concatenação de strings
             // Usa o operador + para concatenar várias partes da string e variáveis
-            Console.WriteLine(nome + " tem " + idade + " anos e tem saldo igual a " + saldo.ToString("F2") + " reais");
+            Console.WriteLine(nome + " tem " + idade + " anos e tem saldo igual a " + saldo.ToString("F2", CultureInfo.InvariantCulture) + " reais");
         }
     }
 }
